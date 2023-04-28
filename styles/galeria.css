@@ -19,3 +19,9 @@
 .kodfun-galeri > div:hover {
     flex: 5;
 }
+
+@media screen and (max-width: 600px) {
+    .kodfun-galeri {
+        height: 10rem;
+    }
+}

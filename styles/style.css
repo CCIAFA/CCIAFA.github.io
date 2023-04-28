@@ -2,44 +2,16 @@ header {
 	background: linear-gradient(red,white);
 }
 
-.cajaCabecera {
-    width: 940px;
-    position: relative;
-    display: flex;
+.descripcion {
+    width: 80%;
     margin: 0 auto;
-	padding: 20px;
-}
-
-.logo {
-    width: 10%; 
-	height: 10%; 
-}
-
-nav{
-    position: absolute;
-    right: 0;
-}
-
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a{
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover{
-    color: white;
-    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
 }
 
 #opcionComidas{
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -73,8 +45,8 @@ nav a:hover{
 }
 
 img.imagenComida {
-	width: 200px; 
-	height: 130px; 
+	width: 80%; 
+	height: 80%; 
 }
 
 #opcionComidas li:hover h2{
